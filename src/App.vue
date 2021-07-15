@@ -1,0 +1,36 @@
+<template>
+<div>
+    <add-blog></add-blog>
+    <show-blog></show-blog>
+    <list-blog></list-blog>
+</div>
+  
+</template>
+
+<script>
+import addBlog from "./addBlog.vue";
+import showBlog from "./showBlog.vue";
+import listBlog from "./listBlog.vue"
+
+export default {
+  components: {
+    "add-blog": addBlog,
+    "show-blog":showBlog,
+    "list-blog":listBlog
+  },
+
+  data() {
+    return {
+    }
+  },
+  methods: {
+   
+  }
+};
+</script>
+
+
+
+<style scoped>
+
+</style>
