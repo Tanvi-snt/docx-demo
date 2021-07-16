@@ -1,13 +1,9 @@
 <template>
   <main>
-    <section class="self-center flex flex-col flex-1 items-center justify-center">
-      <h1 class="title text-center">Nuxt — Tailwind — Netlify CMS Demo Project</h1>
-      <h2 class="subtitle text-center">Boilerplate</h2>
-    </section>
-
-    <section class="mt-8">
-      <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Latest blog post by Me</h3>
-      <posts post-type="blog" :amount="1" />
+    <section class="flex flex-col flex-1 items-center justify-center">
+      <h1 class="title text-center">Get Work Done</h1>
+      <p class="text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, perspiciatis?</p>
+      <button class="font-bold rounded-full mt-4 lg:ml-4 lg:mt-0 py-4 px-8 shadow bg-blue">Get early access</button>
     </section>
   </main>
 </template>
