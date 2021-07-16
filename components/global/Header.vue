@@ -1,9 +1,7 @@
 <template>
-  <nav :class="headerClassList" class="fixed w-full z-30 top-0">
+  <nav class="fixed w-full z-30 top-0">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-      <div class="pl-4 flex items-center">
-        <logo :isStickable="true" :isSticky="isSticky" />
-      </div>
+      <div class="pl-4 flex items-center"></div>
       <div class="block lg:hidden pr-4">
         <button class="flex items-center p-1 text-orange-800 hover:text-gray-900">
           <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -14,7 +12,6 @@
       </div>
 
       <div
-        :class="navContentClassList"
         class="
           w-full
           flex-grow
@@ -60,17 +57,8 @@
 </template>
 
 <script>
-import Logo from '@/components/Logo'
-
 export default {
-  name: 'TheHeader',
-  components: {
-    logo: Logo,
-  },
-  data() {
-    return {}
-  },
-  computed: {},
-  methods: {},
+  name: 'Header',
 }
 </script>
+
